@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		LAB 2
+	</title>
+</head>
+<body>
+	<header>
+	<h1 style = "background: blue; color : yellow" align = "center">	CHENNAI SUPER KINGS | BLOG </h1>
+	</header>
+	<nav align = "center">
+		<a href = "http://www.chennaisuperkings.com/"> Home	 </a>
+		<a href = "https://en.wikipedia.org/wiki/Chennai_Super_Kings#Franchise_history"> Franchise	</a>
+		<a href = "https://en.wikipedia.org/wiki/Chennai_Super_Kings#Players"> Players</a>
+		<a href = "https://en.wikipedia.org/wiki/Chennai_Super_Kings#2008.E2.80.932009:_First_seasons"> Achievements </a>
+	</nav>
+	<br />
+	<br />
+	<img src = "csk.png" style = "height : 200px">
+	<section>
+		<h1> Captain </h1>
+		<p> <h3> MS Dhoni </h3></p>
+		<img src = "http://media2.intoday.in/indiatoday/images/stories/647_010517091159.jpg" style = "height : 150px">
+		<h1> Acheievements </h1>
+		<p> Winners in 2010 and 2011. Playoff Qualifiers in the rest of the years (2008 - 2014). Most Consistent team.</p>
+		<img src = "http://www.crictracker.com/wp-content/uploads/2015/05/CSK-2011.jpg" style = "height: 150px">
+		<h1> Chants </h1>
+		<p> Chennai Super Kings ku periya Whistle Podu! </p>
+	</section>
+	<article>
+		<h2> THE DEFEAT WHICH COST A LOT </h2>
+		<h4> is set for it's comeback </h4>
+		<p> Having taken a call on how to go about with the media rights auction post the ongoing edition of the IPL, the BCCI is now gearing up to welcome two of its oldest franchises - Chennai Super Kings and Rajasthan Royals - on the very day that it releases the 'Invitation To Tender (ITT)' for the above mentioned rights.
+A day after the TOI report on BCCI's decision to bring down the media rights period for broadcast bids from 10 years to five, it came to light that the Board is looking to also mark the occasion to articulate the return of two of its original eight franchises. Two-time IPL winners Chennai Super Kings and 2008 champions Rajasthan Royals were suspended from the IPL for two seasons - 2016 & 2017 - by the Supreme Court following the spot-fixing scandal that erupted in 2013.
+CSK are learnt to be making grand plans for their return and are in the middle of finalizing events themed around the franchise's massive fan base. An official in the know of things said: MS Dhoni, the former skipper at Rising Pune Supergiant, who "seems to have become an unnecessary talking point for all the wrong reasons other than cricket," will go back to the Super Kings - a team that he had been associated successfully for eight long years - immediately after the end of the 2017 edition.
+		</p> 
+	</article>	
+	<aside>
+		<p><h5>(ASIDE tag) coming soon... </h5></p>
+	</aside>
+	
+	<footer>
+		<h2 align = "right">THE BOYS ARE BACK. 2018 HERE WE COME </h2>
+	</footer>
+</body>
+</html>
