@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Area and Perimeter of User's Choice</title>
+</head>
+
+<body>
+  <fieldset>
+    <h2> Choose a Shape </h2>
+  <input type="radio" name="shape" value="1" onclick = "displayForm(this)"> Circle<br>
+  <input type="radio" name="shape" value="2" onclick = "displayForm(this)"> Triangle<br>
+  <input type="radio" name="shape" value="3" onclick = "displayForm(this)"> Square<br>
+  <input type="radio" name="shape" value="4" onclick = "displayForm(this)"> Rectangle<br>
+  <input type="radio" name="shape" value="5" onclick = "displayForm(this)" > Hexagon<br>
+
+<div>
+  <form style="visibility:hidden" id= "t">
+    <div style = " background-image: url('tri.png'); background-repeat: no-repeat; height:1000px; width:1000px ; position: absolute; margin-left:600px; margin-top:-100px" >
+    </div>
+    <br>
+    <b>TRIANGLE</b><br><br>
+    Enter the side 1 <br>
+    <input id = "tf" type="length">
+    <br>
+    Enter the side 2 <br>
+    <input id = "ts" type="length">
+    <br>
+    Enter the side 3 <br>
+    <input id = "tt" type="length">
+    <br><br>
+    <input type = "submit" value = "Get Result" onclick = "tcal()">
+    <br><br>
+    Perimeter <br>
+    <input id = "tp" type="length" disabled>
+    <br>
+    Area <br>
+    <input id = "ta" type="length" disabled>
+  <br>
+</form>
+</div>
+
+<div>
+  <form style="visibility:hidden; position: absolute; margin-top: -300px" id= "c">
+    <div style = " background-image: url('cir.png'); background-repeat: no-repeat; height:1000px; width:1000px ; position: absolute; margin-left:600px; margin-top:-100px" >
+    </div>
+    <br>
+    <b>CIRCLE</b><br><br>
+    Enter the radius <br>
+    <input style=" z-index:100" id = "cr" type="length">
+    <br><br>
+    <input type = "submit" value = "Get Result" onclick = "ccal()">
+    <br><br>
+    Circumference <br>
+    <input id = "cc" type="length" disabled>
+    <br>
+    Area <br>
+    <input id = "ca" type="length" disabled>
+  <br></form>
+</div>
+  <div><form style="visibility:hidden; position: absolute; margin-top: -300px" id= "s">
+    <div style = " background-image: url('sq.png'); background-repeat: no-repeat; height:1000px; width:1000px ; position: absolute; margin-left:600px; margin-top:-100px" >
+    </div>
+    <br>
+    <b>SQUARE</b><br><br>
+    Enter the side <br>
+    <input id = "ss" type="length">
+    <br><br>
+    <input type = "submit" value = "Get Result" onclick = "scal()">
+    <br><br>
+    Perimeter <br>
+    <input id = "sp" type="length" disabled>
+    <br>
+    Area <br>
+    <input id = "sa" type="length" disabled>
+  <br></form>
+</div>
+  <div><form style="visibility:hidden; position: absolute; margin-top: -300px" id= "r">
+    <div style = " background-image: url('rect.png'); background-repeat: no-repeat; height:1000px; width:1000px ; position: absolute; margin-left:600px; margin-top:-50px" >
+    </div>
+    <br>
+    <b>RECTANGLE</b><br><br>
+    Enter the length <br>
+    <input id = "rl" type="length">
+    <br>
+    Enter the breadth <br>
+    <input id = "rb" type="length">
+    <br><br>
+    <input type = "submit" value = "Get Result" onclick = "rcal()">
+    <br><br>
+    Perimeter <br>
+    <input id = "rp" type="length" disabled>
+    <br>
+    Area <br>
+    <input id = "ra" type="length" disabled>
+  <br></form>
+</div>
+  <div><form style="visibility:hidden; position: absolute; margin-top: -300px" id= "h">
+    <div style = " background-image: url('hex.jpg'); background-repeat: no-repeat; height:1000px; width:1000px ; position: absolute; margin-left:600px; margin-top:-100px" >
+    </div>
+    <br>
+    <b>HEXAGON</b><br><br>
+    Enter the side <br>
+    <input id = "hs" type="length">
+    <br>
+    <br>
+    <input type = "submit" onclick = "hcal()" value = "Get Result">
+    <br><br>
+    Perimeter <br>
+    <input id = "hp" type="length" disabled>
+    <br>
+    Area <br>
+    <input id = "ha" type="length" disabled>
+  <br></form> 
+</div>
+  
+    <script src="js/index.js"></script>
+</fieldset>
+</body>
+</html>
