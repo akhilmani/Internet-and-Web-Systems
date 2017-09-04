@@ -1,0 +1,55 @@
+button{
+			cursor: pointer;
+			margin-left: 20px;
+			border: none;
+			background-color: #FAFAFA;
+			font-size: 19px;
+			font-family: Trebuchet MS;
+		}
+		.aq{
+			background-color: #71740E;
+			border: outset; 
+		}
+		.profile-buttons:hover{
+			background-color: #E0D5D3;
+		}
+		input{
+			margin-left: 100px;
+			width: 200px;
+			height: 20px;
+			background: url(http://www.iconsdb.com/icons/download/black/search-3-512.jpg) no-repeat scroll 1px 1px;
+			background-size: 20px 20px;
+			background-color: white;
+			margin-top: 40px;
+			padding-left: 25px; 
+		}
+
+		.trending{
+			list-style: none;
+			padding: 10px 10px 10px 10px;
+			cursor: pointer;
+		}
+		.profile-dropdown{
+			display: none;
+			background: white;
+			position: fixed;
+			margin-left: 730px;
+			margin-top: -3.5%;
+		}
+		.profile-dropdown-buttons{
+			cursor: pointer;
+			text-align: left;
+			background-color: white;
+			border-style: none; 
+			width: 75px;
+			height: 30px;
+			margin-bottom: 5px;
+
+		}
+		.profile-dropdown-buttons:hover, .trending:hover{
+			background-color: #E0D5D3;
+
+		}
+		.trending-list{
+			position: fixed;
+		}
